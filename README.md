@@ -10,7 +10,7 @@ This is a Linux based project which aims to automate safety monitoring, reduce h
 - 📸 Dataset Creation: Dataset creation involved capturing real-time images from construction sites, processing, and annotating them using Roboflow. This robust and detailed dataset ensures high accuracy in violation detection.
 - 📝 Advanced Dataset Annotation: Utilizes Roboflow for annotating images with precise bounding boxes and class labels, enhancing model training.
 - 🚨 Alert System: Sends instant alert emails to supervisors using Gmail API when a violation is detected, ensuring timely action.
-- 🧠 YOLOv7 Model Training: Utilizes YOLOv7 for training the detection model, fine-tuning weights for optimal accuracy in recognizing PPE violations.
+- 🧠 YOLOv8 Model Training: Utilizes YOLOv8 for training the detection model, fine-tuning weights for optimal accuracy in recognizing PPE violations.
 ## 🏷️ Defined Annotation Classes:
 - Safe ✔️
 - Unsafe ❌
@@ -22,7 +22,7 @@ This is a Linux based project which aims to automate safety monitoring, reduce h
 📦 Deployment with Docker: The system is containerized using Docker, making deployment and scaling efficient and manageable.
 ## ⚙️ Tech Stack
 - Python 🐍
-- YOLOv7 🧩 (for object detection and training)
+- YOLOv8 🧩 (for object detection and training)
 - Gmail API 📧 (for sending alert emails)
 - Roboflow 📝 (for dataset creation and annotation)
 - OpenCV 🎥 (for video processing)
@@ -73,7 +73,7 @@ Flask Web Application: The project includes an interactive Flask web interface, 
 ![User Interface](flask.png)
 
 ## 📊 Model Performance
-- YOLOv7 is employed for object detection, with robust performance on real-time datasets.
+- YOLOv8 is employed for object detection, with robust performance on real-time datasets.
 - Annotation Classes such as Safe, Unsafe, No Helmet, and No Jacket are defined for precise detection.
 - The model is fine-tuned with specific weights to maximize accuracy, ensuring reliable detection even in challenging environments.
 ## 🛠️ Dataset Creation and Annotation
